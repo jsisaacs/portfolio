@@ -15,14 +15,12 @@
 }
 
 .subtitle.is-3.has-text-light {
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .profile-container {
-    box-shadow: 0 20px 70px -10px rgba(51, 51, 51, 0.7), 0 50px 100px 0 rgba(51, 51, 51, 0.2);
     border-radius: 3px;
-    background-color: white;
-    /* overflow:hidden; */
+    background-color: hsl(0, 0%, 21%);
     position: relative;
     height: 360px;
     width: 290px;
@@ -34,7 +32,6 @@
 .profile-text {
     padding-left: 40px;
     padding-top: 30px;
-    /* background-color: blue; */
 }
 
 .age {
@@ -50,7 +47,7 @@
     left: -5px;
     top: 87px;
     z-index: 1000;
-    transform: translateZ(20px)
+    transform: translateZ(20px);
 }
 
 #profile {
