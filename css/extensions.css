@@ -53,3 +53,10 @@
 #profile {
     height: 275px;
 }
+
+.about-container {
+    box-shadow: 0 9px 70px -40px rgba(51, 51, 51, 0.7), 0 50px 100px 0 rgba(51, 51, 51, 0.2);
+    background-color: white;
+    border-radius: 3px;
+    /* height: 500px; */
+}
