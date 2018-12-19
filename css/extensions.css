@@ -14,7 +14,7 @@
     border-radius: 3px;
 }
 
-.subtitle.is-3.has-text-light {
+.subtitle.is-1.has-text-light {
     padding-top: 20px;
 }
 
@@ -54,9 +54,13 @@
     height: 275px;
 }
 
-.about-container {
+.aboutme-container {
     box-shadow: 0 9px 70px -40px rgba(51, 51, 51, 0.7), 0 50px 100px 0 rgba(51, 51, 51, 0.2);
     background-color: white;
     border-radius: 3px;
-    /* height: 500px; */
+}
+
+.title.is-2.has-text-dark {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
