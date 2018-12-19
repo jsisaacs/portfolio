@@ -5,10 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Josh Isaacson</title>
         <link rel="stylesheet" href="css/mystyles.css">
+        <link rel="stylesheet" href="css/extensions.css">
         <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-        <script type="text/javascript" src="burger.js"></script>
+        <script type="text/javascript" src="js/burger.js"></script>
     </head>
     <body>
+        <!-- Navigation -->
         <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item" href="">
@@ -51,19 +53,30 @@
                 </div>
             </div>
         </nav>   
-        <section class="hero is-light is-bold is-fullheight-with-navbar">
+
+        <!-- Hero -->
+        <section class="hero is-light is-bold is-medium">
             <div class="hero-body">
-                <div class="container">
-                    <div class="columns">
-                        <div class="column">
-
+                <div class="container">              
+                    <div class="columns is-vcentered">
+                        <div class="hero column is-6 has-text-centered">
+                            <p class="title is-1">Josh Isaacson</p>
+                            <p class="subtitle is-3">Student <strong class="has-text-dark">x</strong> Full-Stack Developer</p>
                         </div>
-                        <div class="column">
-
+                        <div class="column is-6">
+                            <!-- <figure class="image"> -->
+                            <div class="level">
+                                <div class="level-item has-text-centered">
+                                    <div class="profile-container" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.8">
+                                        <img id="profile" src="./assets/josh-isaacson.jpeg" alt="Josh Isaacson">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <script type="text/javascript" src="js/vanilla-tilt.js"></script>
     </body>
 </html>
