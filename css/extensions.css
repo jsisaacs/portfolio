@@ -10,6 +10,14 @@
     background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
 }
 
+#logo-dark {
+    border-radius: 3px;
+}
+
+.subtitle.is-3.has-text-grey-lighter {
+    padding-top: 10px;
+}
+
 .profile-container {
     box-shadow: 0 20px 70px -10px rgba(51, 51, 51, 0.7), 0 50px 100px 0 rgba(51, 51, 51, 0.2);
     border-radius: 3px;
