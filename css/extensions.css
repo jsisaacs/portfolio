@@ -4,10 +4,7 @@
 
 .hero.is-light.is-bold {
     /* blue -> purple */
-    background: linear-gradient(90deg, #515ada 0%, #efd5ff 100%);
-
-    /* red -> blue */
-    /* background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%); */
+    /* background: linear-gradient(90deg, #515ada 0%, #efd5ff 100%); */
 
     /* purple -> grey */
     background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
@@ -34,7 +31,7 @@
 
 .age {
     padding-top: 35px;
-    /* background-color: red; */
+    padding-right: 40px;
 }
 
 .profile-overlay {
