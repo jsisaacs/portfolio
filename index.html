@@ -78,22 +78,20 @@
         <section class="hero is-small is-light is-bold">
             <div class="hero-body">
                 <div class="aboutme-container">
-                    <div class="aboutme-title has-text-centered">
-                        <p class="title is-2 has-text-dark">
-                            About Me
-                        </p>
-                        <hr id="aboutme-hr">
-                    </div>
                     <div class="columns is-vcentered">
-                        <div class="column is-3">
-                            Column 1
+                        <div id="aboutme-text" class="column is-5">
+                            <div class="has-text-centered">
+                                <p id="recent-commits-title" class="title is-4 has-text-dark">About Me</p>
+                                <hr id="aboutme-hr">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         </div>
 
                         <!-- Profile -->
-                        <div class="column is-5">
+                        <div class="column is-7">
                             <div class="level">
                                 <div class="level-item">
-                                    <div class="profile-container" data-tilt data-tilt-reverse="true" data-tilt-scale="1.05" >
+                                    <div class="profile-container" data-tilt  data-tilt-reverse="true" data-tilt-scale="1.05">
                                         <div class="columns is-mobile">
                                             <div class="column profile-text is-9">
                                                 <p class="title is-4 has-text-light">Josh Isaacson</p>
@@ -111,24 +109,29 @@
                                 </div>
                             </div>
                         </div>
-                        
-                        <!-- Recent Commits -->
-                        <div class="column is-4">
-                            <div class="recent-commits-container has-text-centered">
-                                <p id="recent-commits-title" class="title is-4 has-text-dark">Recent Commits</p>
-                                <hr id="recent-commits-hr">
-                                <p>example 1</p>
-                                <p>example 2</p>
-                                <p>example 3</p>
-                                <p>example 4</p>
-                                <p>example 5</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </section>
+        
+        <!-- Recent Commits -->
+        <section class="hero is-small is-light is-bold">
+            <div class="hero-body">
+                <div class="recent-commits-container has-text-centered">
+                    <p id="recent-commits-title" class="title is-4 has-text-dark">Recent GitHub Commits</p>
+                    <hr id="recent-commits-hr">
+                    <div class="recent-commits has-text-centered">
+                        <!-- Filled by recent-commits.js -->
+                    </div>
+                </div>
+            </div>    
+        </section>
 
+        <!-- Tilt -->
         <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+
+        <!-- GitHub Recent Commits -->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script type="text/javascript" src="js/recent-commits.js"></script>
     </body>
 </html>

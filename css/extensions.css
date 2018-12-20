@@ -65,13 +65,7 @@
     padding-bottom: 30px;
     margin-left: 50px;
     margin-right: 50px;
-}
-
-@media only screen and (max-width: 890px) {
-    .aboutme-container {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
+    
 }
 
 .title.is-2.has-text-dark {
@@ -83,27 +77,87 @@
 
 #aboutme-hr {
     background: linear-gradient(105deg, rgba(29,253,179,1) 0%, rgba(246,252,69,1) 100%);
-    width: 182px;
-    height: 6px;
     margin: auto;
-    margin-top: 0px;
-    margin-bottom: 30px;
+    margin-top: 2.5px;
+    margin-bottom: 15px;
+    width: 110px;
+    height: 5px;
+}
+
+#aboutme-text {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .recent-commits-container {
-    height: 370px;
-    /* background-color: lightgray; */
+    box-shadow: 0 9px 70px -40px rgba(51, 51, 51, 0.7), 0 50px 100px 0 rgba(51, 51, 51, 0.2);
+    background-color: white;
+    border-radius: 3px;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #recent-commits-title {
+    padding-top: 15px;
     margin-bottom: 2.5px;
 }
 
 #recent-commits-hr {
-    /* background: linear-gradient(105deg, rgba(29,253,179,1) 0%, rgba(246,252,69,1) 100%); */
+    background: linear-gradient(105deg, rgba(29,253,179,1) 0%, rgba(246,252,69,1) 100%);
     margin: auto;
     margin-top: 2.5px;
-    margin-bottom: 2.5px;
-    width: 182.5px;
-    height: 2px;
+    margin-bottom: 15px;
+    width: 265px;
+    height: 5px;
+}
+
+.event-div {
+    background-color: hsl(0, 0%, 96%);
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 90%;
+}
+
+.event-div:hover {
+    transform: scale(1.05);
+    transition-duration: 250ms;
+    box-shadow: 0 9px 70px -40px rgba(51, 51, 51, 0.7), 0 50px 100px 0 rgba(51, 51, 51, 0.2);
+}
+
+#event-commit-level {
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.event-repo {
+
+}
+
+.event-message {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.event-date {
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.event-time {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 890px) {
+    .aboutme-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .recent-commits-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
