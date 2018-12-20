@@ -14,6 +14,10 @@
     border-radius: 3px;
 }
 
+#hero-x {
+    color: linear-gradient(106deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+}
+
 .subtitle.is-1.has-text-light {
     padding-top: 20px;
 }
@@ -22,8 +26,8 @@
     border-radius: 3px;
     background-color: hsl(0, 0%, 21%);
     position: relative;
-    height: 360px;
-    width: 290px;
+    height: 370px;
+    width: 270px;
 
     transform-style: preserve-3d;
     transform: perspective(1000px);
@@ -35,7 +39,7 @@
 }
 
 .age {
-    padding-top: 35px;
+    padding-top: 27px;
     padding-right: 40px;
 }
 
@@ -45,22 +49,61 @@
     border-radius: 3px;
     position: absolute;
     left: -5px;
-    top: 87px;
+    top: 95px;
     z-index: 1000;
     transform: translateZ(20px);
 }
 
 #profile {
-    height: 275px;
+    height: 245px;
 }
 
 .aboutme-container {
     box-shadow: 0 9px 70px -40px rgba(51, 51, 51, 0.7), 0 50px 100px 0 rgba(51, 51, 51, 0.2);
     background-color: white;
     border-radius: 3px;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media only screen and (max-width: 890px) {
+    .aboutme-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 .title.is-2.has-text-dark {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+
+#aboutme-hr {
+    background: linear-gradient(105deg, rgba(29,253,179,1) 0%, rgba(246,252,69,1) 100%);
+    width: 182px;
+    height: 6px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.recent-commits-container {
+    height: 370px;
+    /* background-color: lightgray; */
+}
+
+#recent-commits-title {
+    margin-bottom: 2.5px;
+}
+
+#recent-commits-hr {
+    /* background: linear-gradient(105deg, rgba(29,253,179,1) 0%, rgba(246,252,69,1) 100%); */
+    margin: auto;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    width: 182.5px;
+    height: 2px;
 }

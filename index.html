@@ -70,31 +70,35 @@
                 <figure class="image is-96x96">
                     <img id="logo-dark" src="./assets/ji-logo-dark.png" width="96px" alt="Josh Isaacson Logo (dark)">
                 </figure>
-                <p class="subtitle is-1 has-text-light">Student <strong class="has-text-link">x</strong> Full-Stack Developer</p>
+                <p class="subtitle is-1 has-text-light">Student <strong id="hero-x">x</strong> Full-Stack Developer</p>
             </div>
         </section>
 
         <!-- About Me -->
-        <section class="hero is-medium is-light is-bold">
+        <section class="hero is-small is-light is-bold">
             <div class="hero-body">
                 <div class="aboutme-container">
                     <div class="aboutme-title has-text-centered">
                         <p class="title is-2 has-text-dark">
                             About Me
                         </p>
+                        <hr id="aboutme-hr">
                     </div>
                     <div class="columns is-vcentered">
-                        <div class="column is-6">
+                        <div class="column is-3">
                             Column 1
                         </div>
-                        <div class="column is-6">
-                        <div class="level">
+
+                        <!-- Profile -->
+                        <div class="column is-5">
+                            <div class="level">
                                 <div class="level-item">
                                     <div class="profile-container" data-tilt data-tilt-reverse="true" data-tilt-scale="1.05" >
                                         <div class="columns is-mobile">
                                             <div class="column profile-text is-9">
-                                                <p class="title is-4 has-text-light">Josh Isaacson <strong class="has-text-link">•</strong></p>
-                                                <p class="has-text-grey-lighter">Bloomington, IN</p>
+                                                <p class="title is-4 has-text-light">Josh Isaacson</p>
+                                                <p 
+                                                class="has-text-grey-lighter">Bloomington, IN</p>
                                             </div>
                                             <div class="column age has-text-centered">
                                                 <p class="is-size-4 has-text-light"><strong>20</strong></p>
@@ -105,6 +109,19 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Recent Commits -->
+                        <div class="column is-4">
+                            <div class="recent-commits-container has-text-centered">
+                                <p id="recent-commits-title" class="title is-4 has-text-dark">Recent Commits</p>
+                                <hr id="recent-commits-hr">
+                                <p>example 1</p>
+                                <p>example 2</p>
+                                <p>example 3</p>
+                                <p>example 4</p>
+                                <p>example 5</p>
                             </div>
                         </div>
                     </div>
